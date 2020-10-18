@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>MediaMonks Test</title>
+    <style>
+        .buttonRight {
+            float: right;
+        }
+        
+        .buttonLeft {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner container">
+        <div class="header">
+            <div class="buttonLeft">
+                <a onclick="slideImage(-1)" class="prev round">&#8249;</a>
+            </div>
+
+            <img id="logo" src="assets/img/logoImg2.png">
+            <div class="buttonRight">
+                <a onclick="slideImage(1)" class="next round">&#8250;</a>
+            </div>
+
+        </div>
+        <hr class="title-divider">
+        <div class="carousel">
+            <div class="slides fade">
+                <img class="sliderImg" src="assets/img/img.jpg">
+            </div>
+            <div class="slides fade">
+                <img class="sliderImg" src="assets/img/img2.jpg">
+            </div>
+            <div class="slides fade">
+                <img class="sliderImg" src="assets/img/img3.jpg">
+            </div>
+            <div class="slides fade">
+                <img class="sliderImg" src="assets/img/img4.jpg">
+            </div>
+            <div class="slides fade">
+                <img class="sliderImg" src="assets/img/img5.jpg">
+            </div>
+        </div>
+
+
+        <!-- <div id="slider">
+            <ul class="slides">
+                <li class="slide"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
+                <li class="slide"></li>
+            </ul>
+            <div id="exit"></div>
+        </div>
+        <div id="line"></div>
+        <img class="item arrow arrow prev" id="arrowPrev" src="">
+        <img class="item arrow arrow next" id="arrowNext" src=""> -->
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

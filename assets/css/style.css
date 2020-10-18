@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+    max-width: 100%;
+}
+
+.banner {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+    /* border: 3px solid black; */
+}
+
+.carousel {
+    max-width: 300px;
+    max-height: 250px;
+}
+
+#logo {
+    width: 70px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+
+/*Prev-Next Buttons*/
+
+.header {
+    height: 7vh;
+    border: 3px solid black;
+    border-bottom: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+a:hover {
+    background-color: rgb(10, 10, 10);
+    color: black;
+}
+
+.prev,
+.next {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev {
+    margin-left: 10px;
+}
+
+
+/*Maybe we don't need that*/
+
+.next {
+    margin-left: -20%;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgb(123 84 163 / 80%);
+}
+
+.title-divider {
+    width: auto;
+    height: 2px;
+    background-color: #030303;
+    margin: 0px;
+}
+
+
+/*Slides Carousel*/
+
+.slides {
+    display: none;
+}
+
+.slides img {
+    border: 3px solid #030303;
+    border-top: none;
+}
+
+.sliderImg {
+    width: 98%;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/*Media Queries*/
+
+@media(max-width: 321px) {
+    #logo {
+        width: 60px;
+    }
+}
+
+@media(min-width: 374px) and (max-width: 700px) {
+    .prev,
+    .next {
+        margin-top: 15px;
+    }
+}
+
+@media(min-width: 767px) and (max-width: 1022px) {
+    .header {
+        height: 5vh;
+    }
+}
+
+@media(min-width: 1023px) and (max-width: 1050px) {
+    .header {
+        height: 4vh;
+    }
+    .sliderImg {
+        height: 15vh;
+    }
+}
+
+@media(min-width: 1051px) {
+    .header {
+        height: 7vh;
+    }
+}
