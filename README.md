@@ -1,6 +1,6 @@
 ## MediaMonks Test
 
-**For a live version of the site click <a href="https://edshuli.github.io/MMTest/">Live Version</a>**
+**For a live version of the site click <a target="._blank" href="https://edshuli.github.io/MMTest/">Live Version</a>**
 
 ### About the Test
 <hr>
