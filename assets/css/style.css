@@ -25,7 +25,7 @@ body {
 /*Prev-Next Buttons*/
 
 .header {
-    height: 7vh;
+    height: auto;
     border: 3px solid black;
     border-bottom: none;
 }
@@ -136,30 +136,8 @@ a:hover {
     }
 }
 
-@media(min-width: 374px) and (max-width: 700px) {
-    .prev,
-    .next {
-        margin-top: 15px;
-    }
-}
-
-@media(min-width: 767px) and (max-width: 1022px) {
-    .header {
-        height: 5vh;
-    }
-}
-
 @media(min-width: 1023px) and (max-width: 1050px) {
-    .header {
-        height: 4vh;
-    }
     .sliderImg {
         height: 15vh;
-    }
-}
-
-@media(min-width: 1051px) {
-    .header {
-        height: 7vh;
     }
 }
