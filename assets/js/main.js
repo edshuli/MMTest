@@ -1,7 +1,7 @@
 var slideIndex = 1;
 showImages(slideIndex);
 
-// Next/previous controls
+// Next-Previous controls
 function slideImage(n) {
     showImages(slideIndex += n);
 }

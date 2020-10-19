@@ -7,13 +7,10 @@ body {
     margin-right: auto;
     margin-left: auto;
     max-width: 300px;
-    /* border: 3px solid black; */
 }
 
-.carousel {
-    max-width: 300px;
-    max-height: 250px;
-}
+
+/*----Header-----*/
 
 #logo {
     width: 70px;
@@ -29,6 +26,9 @@ body {
     border: 3px solid black;
     border-bottom: none;
 }
+
+
+/*Prev-Next Buttons*/
 
 a {
     text-decoration: none;
@@ -60,11 +60,8 @@ a:hover {
     margin-left: 10px;
 }
 
-
-/*Maybe we don't need that*/
-
 .next {
-    margin-left: -20%;
+    margin-left: -40%;
 }
 
 .round {
@@ -76,11 +73,30 @@ a:hover {
     background-color: rgb(123 84 163 / 80%);
 }
 
+.buttonRight {
+    float: right;
+}
+
+.buttonLeft {
+    float: left;
+}
+
+
+/*Divider*/
+
 .title-divider {
     width: auto;
     height: 2px;
     background-color: #030303;
     margin: 0px;
+}
+
+
+/*----Carousel------*/
+
+.carousel {
+    max-width: 300px;
+    max-height: 250px;
 }
 
 
