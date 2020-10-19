@@ -30,6 +30,14 @@ body {
 
 /*Prev-Next Buttons*/
 
+.buttonRight {
+    float: right;
+}
+
+.buttonLeft {
+    float: left;
+}
+
 a {
     text-decoration: none;
     display: inline-block;
@@ -37,11 +45,6 @@ a {
     padding-bottom: 2px;
     padding-left: 6px;
     padding-right: 6px;
-}
-
-a:hover {
-    background-color: rgb(10, 10, 10);
-    color: black;
 }
 
 .prev,
@@ -66,19 +69,6 @@ a:hover {
 
 .round {
     border-radius: 50%;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: rgb(123 84 163 / 80%);
-}
-
-.buttonRight {
-    float: right;
-}
-
-.buttonLeft {
-    float: left;
 }
 
 
@@ -122,7 +112,7 @@ a:hover {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 5s;
 }
 
 @-webkit-keyframes fade {
